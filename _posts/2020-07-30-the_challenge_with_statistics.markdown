@@ -15,13 +15,13 @@ This is how everything started to 'fall apart' for me, or so I thought. I think 
 The issue I started to run into with IQR, was the utilization of IQR and boxplots. Boxplots are apparently notorious for a severe cutoff when it comes to dealing with outliers. I’m normally a very visual person which is why, naturally, I enjoy ‘seeing’ the outliers in front of me so I understand what I am solving for. So I had to scratch this method and move to the Z-Score method. Z-Score certainly made things much more simple than I thought it would. I split my data frame into two data frames. One being numerical and the other categorical. I wanted to get the Z-Score for only the numerical data and then concatenate the data frame back together.
 
 Data before being normalized:
-<img src="https://github.com/jamesbrockb/images/blob/master/not%20normalized.png">
+<img src="https://raw.githubusercontent.com/jamesbrockb/images/master/not%20normalized.png">
 
 Z-Score normilization:
 <img src="https://raw.githubusercontent.com/jamesbrockb/images/master/zscore.png">
 
 Data after being normalized:
-<img src="https://github.com/jamesbrockb/images/blob/master/normalized.png">
+<img src="https://raw.githubusercontent.com/jamesbrockb/images/master/normalized.png">
 
 Once this was completed I went back through all my steps of looking over the data again. Things look a lot more normalized (from my normalization processes I didn’t mention) once I removed the outliers in my numerical data. I again ran into an issue where my R Squared dropped from .7 to .56. While this still ‘passes’ I wasn’t satisfied. I know my R Squared suffered because I removed some of the data, but I wasn’t expecting it to drop so significantly. I was now tasked with strategizing on how to go back to where I was, while using the data I had. I didn’t want to add the outliers back, do I normalize it further using things like log transformation? I run risks though with the different options I have. Some may make the data look better, but the accuracy could suffer.
 
