@@ -12,7 +12,13 @@ Just when I thought visualization techniques would be an easier section, it was 
 
 After doing A / B testing, with plotly and seaborn for my first project, I found that seaborn aligned more strongly with the majority of my workflow, as well as visual appeal. It was not easy trying to figure this out. Again, I am brand new to coding, so mixing up the syntax for plotly versus seaborn is a commonality for me.
 
+Seaborn visual:
+
+<img src="https://raw.githubusercontent.com/jamesbrockb/images/master/Screen%20Shot%202021-03-04%20at%203.31.40%20PM.png">
+
 One of the questions I created for my project was, which genre is the most profitable given the list of movies in a dataframe I created. Now the answer may seem straightforward to some, but for me, I was stuck on how I wanted to visualize it. I know I could go with your standard barplot to help show the total profits of each genre, but I was also thinking about histograms. I got lost in my train of thought and experimenting with different ways to set up this histogram, but nothing was working. This was certainly a valuable lesson for me to understand what I am trying to show and how I am trying to show it. After taking a step back and reiterating “Which genre is the most profitable?” I understood that a histogram was not going to provide me with enough insight into the solution for this question. For me, and maybe others, I tend to dive straight into the work before understanding what I am trying to solve for.
+
+<img src="https://raw.githubusercontent.com/jamesbrockb/images/master/Screen%20Shot%202021-03-07%20at%203.24.08%20PM.png">
 
 After taking this “new” approach, creating visuals became much more digestible. One thing I really enjoy about seaborn is how visually appealing the figures look. When I think of plotly, I think of a PC, when I think of seaborn, I think of a Mac. Now I know that is going to pull at some chords of the readers here, as I primarily see software engineers and data scientists using PC’s over Macs. As someone who has basically lived off of the OS system, I have tried toying around with a PC and it is just not for me. So that is why when I think of seaborn I think of the user friendliness and the user experience. Plus it is also very appealing to the eye, rather than plotly.
 
