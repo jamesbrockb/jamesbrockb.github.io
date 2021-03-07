@@ -16,4 +16,10 @@ Next we’re going to talk about decision trees. This is one of my instructors f
 
 Finally we have support vectors which is a really interesting model as well. Picture you have a scatter plot with two sets of data. For example purposes, let’s say the two sets of data are separated equally. So equally in fact that you could draw a line perfectly between them. The points of the two data sets that fall closest to this line are known as the support vectors. Obviously this isn’t a perfect world and we’re going to have a lot more than two pieces of data. Which honestly begs the point of me walking you and myself through this, is that we want a clean and simple data set. Otherwise the amount of time to train the data set would take a lot of time while there are other classification models which perform more efficiently.
 
+Fitting Model:
+<img src="https://raw.githubusercontent.com/jamesbrockb/images/master/randomforest.png">
+
+Model Evaluation:
+<img src="https://github.com/jamesbrockb/images/blob/master/rf%20model.png">
+
 In conclusion, for myself personally, I chose to pursue the random forests and a dash of XGBoost (which we didn’t get into). No need to worry as XGB is relatively simple and isn’t hard to interpret with some personal research. After completing my model, I was able to have a recall of 1.00 and an overall accuracy of ~97%. Which in my personal opinion, am very proud of. Overall this project was not as demanding as I had anticipated it to be. The models really do a lot of the work for you (shhh don’t tell anyone that)
