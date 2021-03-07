@@ -20,6 +20,6 @@ Fitting Model:
 <img src="https://raw.githubusercontent.com/jamesbrockb/images/master/randomforest.png">
 
 Model Evaluation:
-<img src="https:/raw.githubusercontent.com/jamesbrockb/images/master/rf%20model.png">
+<img src="https://raw.githubusercontent.com/jamesbrockb/images/master/rf%20model.png">
 
 In conclusion, for myself personally, I chose to pursue the random forests and a dash of XGBoost (which we didn’t get into). No need to worry as XGB is relatively simple and isn’t hard to interpret with some personal research. After completing my model, I was able to have a recall of 1.00 and an overall accuracy of ~97%. Which in my personal opinion, am very proud of. Overall this project was not as demanding as I had anticipated it to be. The models really do a lot of the work for you (shhh don’t tell anyone that)
